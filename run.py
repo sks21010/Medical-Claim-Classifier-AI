@@ -6,7 +6,7 @@ from rf_classes import Node, DecisionTreeClassifier
 
 
 
-st.title("Medical Claim Severity AI")
+st.title("Medical Claim Classifier AI")
 st.subheader("Patient Intake Details")
 
 #==========LOAD MODEL JUST ONCE==========

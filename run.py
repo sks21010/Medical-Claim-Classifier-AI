@@ -8,7 +8,7 @@ from rf_classes import Node, DecisionTreeClassifier
 
 st.title("Medical Claim Classifier AI")
 st.subheader("Patient Intake Details")
-
+st.markdown("Enter <b>medical claim details</b>, and have a <b>Random Forest Classifier</b> model predict whether it's an emergency visit or not!", unsafe_allow_html=True)
 #==========LOAD MODEL JUST ONCE==========
 
 MODEL_PATH = "emergency_rf_model.pkl"
